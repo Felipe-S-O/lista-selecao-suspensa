@@ -1,6 +1,6 @@
 {
   "name": "react-native-lista-selecao-suspensa",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "✅ Lista de seleção suspensa do React Native",
   "main": "index.ts",
   "types": "index.d.ts",
@@ -33,9 +33,9 @@
   ],
   "author": "Felipe-S-O",
   "license": "MIT",
-  "peerDependencies": {
+  "devDependencies": {
     "react": "18.2.0",
-    "react-native": "0.68.2",
+    "react-native": "0.74.3",
     "@types/react": "^18.3.3",
     "typescript": "^5.5.3"
   },
