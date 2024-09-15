@@ -1,6 +1,6 @@
 {
   "name": "react-native-lista-selecao-suspensa",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "✅ Lista de seleção suspensa do React Native",
   "main": "index.ts",
   "types": "index.d.ts",

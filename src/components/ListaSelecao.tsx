@@ -118,7 +118,7 @@ const ListaSelecao: React.FC<ListaSelecaoProps> = ({
                                 onChangeText={(val) => {
                                     let result = dados.filter((item: Modelo) => {
                                         val.toLowerCase();
-                                        let row = item.chave.toLowerCase()
+                                        let row = item.valor.toLowerCase()
                                         return row.search(val.toLowerCase()) > -1;
                                     });
                                     setDadosFiltrados(result)
