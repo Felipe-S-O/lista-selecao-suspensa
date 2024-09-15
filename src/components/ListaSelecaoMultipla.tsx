@@ -128,7 +128,7 @@ const ListaSelecaoMultipla: React.FC<ListaSelecaoMultiplaProps> = ({
                                     let result = dados.filter((item: Modelo) => {
                                         val.toLowerCase();
                                         let row = item.valor.toLowerCase()
-                                        return row.pesquisar(val.toLowerCase()) > -1;
+                                        return row.search(val.toLowerCase()) > -1;
                                     });
                                     setDadosFiltrados(result)
                                 }}
